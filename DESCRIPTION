@@ -1,10 +1,11 @@
 Package: listful
-Title: What the Package Does (One Line, Title Case)
+Title: Build an Object Step by Step from a List
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Authors@R:
+    person("Geordie", "McRuer", , "geo.mcruer@gmail.com", role = c("aut", "cre"))
+Description: Small helpers that build up an object by applying a function to it once for
+    each element of a list (or two lists), as a loop-free alternative to
+    'Reduce()'. Used by the other in-house packages.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
